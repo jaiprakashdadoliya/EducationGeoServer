@@ -1,0 +1,5 @@
+1. app will send a message to live location server
+2. Fetch parents for checked in student, use student_parents table
+3. Fetch token from devices table for parent
+4. Add where condition when picking app token from devices table {where user_type='parent'}
+5. loop trough all registered devices to parents.
